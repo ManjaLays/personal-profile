@@ -1,20 +1,6 @@
-.gradient-background {
-    background: linear-gradient(300deg, #e4f9f5, #66bfbf, #da5c4b);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
-  }
-  
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+.plain-background{
+    background-color: #e4f9f5;
+}
 
   h1 {
     font-family: "Sacramento", cursive;
@@ -23,5 +9,17 @@
 
   h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight:;
+  }
+
+  .profilepic {
+    border-radius: 100%;
+  }
+
+  .hello {
+    padding-top: 50px;
+  }
+
+  .cat {
+    border: 5px solid black;
+    border-radius: 10px;
   }
